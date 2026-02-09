@@ -48,7 +48,7 @@ repetitive workload, increase the consistency of responses, and provide students
 - **Operating System(s): Linux (CPT Internal VM)
 - **Programming Language(s): Python 3
 - **Frameworks / Libraries: Discord.py
-- **Databases / Storage: SQLite, or possible alternative of structured local files
+- **Databases / Storage: PostgreSQL, or possible alternative of structured local files
 - **Infrastructure (VMs, containers, etc.): The bot will be deployed on a CPT internal Linux vm and run as a managed background service. Containerization (Docker) would be 
 considred only if approved and appropriate for long term use.
 - **Tools (Git, CI, monitoring, APIs, etc.): Git and GitHub for version control and team colaboration, environment variables for secure config and secrets management, basic logging
@@ -61,7 +61,6 @@ direct experience creating a Discord bot for a previous Python class project. Ad
 secure config practices within the CPT internal network. -Ayden
 
 Working with discord bots in the past I have experience with automating responses for user inputs, and writing functions that take user input. SQL is a interest of mine as I innitially started IT studies with data analytics programs. Designing creative database schemas that can provide students with relevant reasources based on simple inputs is a motivating challenge. I have experience writting DDL code to define a database, and DQL code for the bot to use for queries. -Darian
-
 ---
 
 ## 7. Project Scope & Deliverables
@@ -108,19 +107,20 @@ No handling of sensitive or personal student data
 
 Dependencies:
 Approval of the project proposal
-Access to a CPT internal vm
+Access to a CPT internal VM
 Creation and approval of a Discord app and bot token
+Access to a internal PostgreSQL database
 ---
 
 ## 10. Security, Ethics & Safety Considerations
 Authentication and Authorization:
-The bot will authenticate using a Discord bot token and operate under the principle of least privlage. No user authentication beyond standard Discord permissions will be implemented.
+The bot will authenticate using a Discord bot token and operate under the principle of least privlage. No user authentication beyond standard Discord permissions will be implemented. The bots api token will also be kept locally to prevent unauthorized useage.
 
 Data Sensitivity:
 The bot will not store, process, or access sesitive or personal student data. All information provided will be purely informational.
 
 Network Exposure:
-The bot will be deployed within the CPT internal environment and will not expose any additional network services or open ports beyond that of which is required for Doscord communication.
+The bot will be deployed within the CPT internal environment and will not expose any additional network services or open ports beyond that of which is required for Discord communication.
 
 Logging, Monitoring, or Automation Impact:
 Basic logging will be implemented for troubleshooting, and operational awareness. There will be no automated actions that could negativly impact users.
@@ -135,8 +135,7 @@ If working in a group, describe:
 - Roles are very equal, we all hold resposability for working on code and making suggestions on overall structure.
 - Currently we are using discord to communicate about initial structures. A github repository will be set up to handle code revisions.
 - Simple voting to resolve any ambiguity issues. Goals are very cleared and structured. We will stick to a set of packages and tools to avoid technical conflicts.
-- The project can be parsed out into different functions needed so members can focus on strong suits weather it be sql, or web apis.
-
+- The project can be parsed out into different functions needed so members can focus on strong suits weather it be sql, python, or web apis.
 ---
 
 ## 12. Documentation & Knowledge Transfer Plan
@@ -146,14 +145,13 @@ And required internal knowledgebase documentation will also be completed as spec
 ---
 
 ## 13. Faculty/cpt.internal Resources Requested
-Access to a CPT internal Linux vm
+Access to a CPT internal Linux VM
 
-Permission to create and configure a Discord app and bot token
+Permission to create and configure a Discord app and bot token.
 
-Access to an internal PostgreSQL database, if approved and available
+Access to an internal PostgreSQL database, if approved and available.
 
-And any other permissions required in order to properly deploy our bit wihtin the CPT internal network
-
+And any other permissions required in order to properly deploy our bit wihtin the CPT internal network.
 ---
 
 ## 14. Acknowledgement of Expectations
@@ -166,7 +164,7 @@ By submitting this proposal, I acknowledge that:
 
 Student 1:  __Ayden Sturtevant__________________________ Date: _02/07/2026______________
 Student 2:  __Darian Mongiovi___________________________ Date: _02/07/2026______________
-Student 3:  ____________________________ Date: _______________
+Student 3:  __Ian Broshes______________________________ Date: _02/09/2026______________
 Student 4:  ____________________________ Date: _______________
 
 Instructor: ____________________________ Date: _______________
