@@ -1,7 +1,7 @@
 # Project Proposal
 
 ## 1. Project Identification
-- **Project Title: CMCC Academic & Athletics Calender Data Integration
+- **Project Title: CMCC Academic & Athletics Calendar Data Integration
 - **Course: CPT 298 01
 - **Term: Spring 2026
 - **Student Name(s): Ayden Sturtevant, Ian Broshes, Darian Mongiovi, Daniel Lukonda
@@ -20,7 +20,7 @@ reflects real world IT practices such as APU integration, file parsing, schema d
 ---
 
 ## 3. Problem Statement
-Academic calender data, O365 events, and athletic schedules are stored across multiple platforms and formats which includes PDF, JSON, .ics, and Excel. Because these sources are 
+Academic calendar data, O365 events, and athletic schedules are stored across multiple platforms and formats which includes PDF, JSON, .ics, and Excel. Because these sources are 
 seperate and structured differently. there is no centralized or automated method to manage this data.
 
 This lack of integration limits consistency, query capability, and long term maintainability. An automated process is needed to consolidate these sources into a structured
@@ -52,7 +52,7 @@ for monitoring and troubleshooting, and external APIs required for O365 integrat
 
 ## 6. Prerequisite Knowledge & Skills
 This project builds on skills developed throughout the CPT program, including Python scripting, database fundamentals, and working within Linux environments. I have prior experience with Python development, structured data processing, and SQL, as well as using Git/GitHub for version control.. working with external APIs (O365), parsing .ics calendar files, refining database schema design, and implementing automated ETL processes within the CPT internal environment. - Ayden
-
+I have previous experence webscraping with Python and displaying info from a variety of sources in a neat GUI for tracking rocket launches - Ian
 Working with discord bots in the past I have experience with automating responses for user inputs, and writing functions that take user input. SQL is a interest of mine as I innitially started IT studies with data analytics programs. Designing creative database schemas that can provide students with relevant reasources based on simple inputs is a motivating challenge. I have experience writting DDL code to define a database, and DQL code for the bot to use for queries. -Darian
 
 ---
