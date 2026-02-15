@@ -52,8 +52,10 @@ for monitoring and troubleshooting, and external APIs required for O365 integrat
 
 ## 6. Prerequisite Knowledge & Skills
 This project builds on skills developed throughout the CPT program, including Python scripting, database fundamentals, and working within Linux environments. I have prior experience with Python development, structured data processing, and SQL, as well as using Git/GitHub for version control.. working with external APIs (O365), parsing .ics calendar files, refining database schema design, and implementing automated ETL processes within the CPT internal environment. - Ayden
+
 I have previous experence webscraping with Python and displaying info from a variety of sources in a neat GUI for tracking rocket launches - Ian
-Working with discord bots in the past I have experience with automating responses for user inputs, and writing functions that take user input. SQL is a interest of mine as I innitially started IT studies with data analytics programs. Designing creative database schemas that can provide students with relevant reasources based on simple inputs is a motivating challenge. I have experience writting DDL code to define a database, and DQL code for the bot to use for queries. -Darian
+
+SQL is a interest of mine as I innitially started IT studies with online data analytics programs. I have experience writting DDL code to define a database, and DQL code for queries. My relevant insights for this project are the packages used for different data platforms, and automating cleaning/formating. -Darian
 
 ---
 
